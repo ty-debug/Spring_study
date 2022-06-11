@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="com.zjh.bean.Address"/>
+
+    <bean id="student" class="com.zjh.bean.Student">
+        <property name="name" value="张张"/>
+
+        <property name="books">
+            <array>
+                <value>书1</value>
+                <value>书2</value>
+                <value>书3</value>
+                <value>书4</value>
+            </array>
+        </property>
+
+        <property name="hobbies">
+            <list>
+                <value>爱好1</value>
+                <value>爱好2</value>
+                <value>爱好3</value>
+                <value>爱好4</value>
+            </list>
+        </property>
+
+        <property name="card">
+            <map>
+                <entry key="卡1" value="123123123123123"></entry>
+                <entry key="卡2" value="123123553"></entry>
+            </map>
+        </property>
+
+        <property name="games">
+            <set>
+                <value>游戏1</value>
+                <value>游戏2</value>
+                <value>游戏3</value>
+            </set>
+        </property>
+
+        <property name="wife">
+            <null/>
+        </property>
+
+        <property name="info">
+            <props>
+                <prop key="driver">123123</prop>
+                <prop key="url">123123</prop>
+                <prop key="username">root</prop>
+                <prop key="password">123456</prop>
+            </props>
+        </property>
+
+    </bean>
+
+</beans>

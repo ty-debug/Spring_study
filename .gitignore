@@ -1,0 +1,11 @@
+# Project exclude paths
+/spring-01-ioc1/target/
+/spring-02-hellospring/target/
+/spring-03-di/target/
+/spring-04-Autowired/target/
+/spring-05-anno/target/
+/spring-06-appconfig/target/
+/spring-07-proxy/target/
+/spring-08-aop/target/
+/spring-09-mybatis/target/
+/spring-10-transaction/target/
